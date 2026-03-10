@@ -88,26 +88,57 @@ function getIDFromURL() {
 
 const id = getIDFromURL();
 
-// جلب البيانات من ملف JSON
-fetch('users.json?v=' + Date.now())
-  .then(response => response.json())
-  .then(users => {
-    const data = users[id] || {license:"---", issue:"---", expiry:"---", name:"Unknown User"};
+// تحويل التاريخ من DD/MM/YYYY
+function parseDate(dateString){
+  const parts = dateString.split("/");
+  const day = parts[0];
+  const month = parts[1] - 1;
+  const year = parts[2];
+  return new Date(year, month, day);
+}
 
-    document.getElementById("root").innerHTML = `
-      <div class="card">
-        <div class="title">DOCUMENT VERIFICATION</div>
-        <div class="row">Document Status : <span class="status">✅VALID</span></div>
-        <div class="row">Int. Driving License : ${data.license}</div>
-        <div class="row">Issue Date : ${data.issue}</div>
-        <div class="row">Expiration Date : ${data.expiry}</div>
-        <div class="row">Owner Name: ${data.name}</div>
-      </div>
-    `;
-  })
-  .catch(err => {
-    console.error('Error loading JSON:', err);
-  });
+fetch('users.json?v=' + Date.now())
+.then(response => response.json())
+.then(users => {
+
+  const data = users[id] || {license:"---", issue:"---", expiry:"---", name:"Unknown User"};
+
+  let statusText = "VALID";
+  let statusColor = "#15C924";
+
+  if(data.expiry !== "---"){
+
+    const today = new Date();
+    const expiryDate = parseDate(data.expiry);
+
+    if(today > expiryDate){
+      statusText = "EXPIRED";
+      statusColor = "red";
+    }
+
+  }
+
+  document.getElementById("root").innerHTML = `
+  <div class="card">
+    <div class="title">DOCUMENT VERIFICATION</div>
+
+    <div class="row">
+    Document Status :
+    <span class="status" style="background:${statusColor}">
+    ${statusText}
+    </span>
+    </div>
+
+    <div class="row">Int. Driving License : ${data.license}</div>
+    <div class="row">Issue Date : ${data.issue}</div>
+    <div class="row">Expiration Date : ${data.expiry}</div>
+    <div class="row">Owner Name: ${data.name}</div>
+  </div>
+  `;
+})
+.catch(err => {
+  console.error('Error loading JSON:', err);
+});
 </script>
 
 </body>
