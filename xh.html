@@ -103,7 +103,7 @@ fetch('users.json?v=' + Date.now())
 
   const data = users[id] || {license:"---", issue:"---", expiry:"---", name:"Unknown User"};
 
-  let statusText = "VALID";
+  let statusText = "✅VALID";
   let statusColor = "#15C924";
 
   if(data.expiry !== "---"){
@@ -112,7 +112,7 @@ fetch('users.json?v=' + Date.now())
     const expiryDate = parseDate(data.expiry);
 
     if(today > expiryDate){
-      statusText = "EXPIRED";
+      statusText = "❌EXPIRED";
       statusColor = "red";
     }
 
