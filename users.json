@@ -1,20 +1,8 @@
 {
   "20390021": {
     "license": "20390021",
-    "issue": "13 Feb 2026",
-    "expiry": "10 Feb 2033",
-    "name": "AHMED  ESHAQ ALI "
-  },
-  "98765": {
-    "license": "98765",
-    "issue": "01 Jan 2025",
-    "expiry": "01 Jan 2030",
-    "name": "ALICE JOHNSON"
-  },
-  "12345": {
-    "license": "12345",
-    "issue": "15 Mar 2024",
-    "expiry": "15 Mar 2029",
-    "name": "ALI AHMED"
+    "issue": "01/03/2026",
+    "expiry": "10/02/2033",
+    "name": "AHMED ESHAQ ALI"
   }
 }
