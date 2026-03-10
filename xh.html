@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<title>QR</title>
+
+<style>
+:root {
+  --primary: #15C924;
+  --bg: #F3F1EF;
+  --card-bg: #fff;
+  --text: #333;
+  --border: #ccc;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* منع أي Scroll */
+  background: var(--bg);
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  height: 100%;
+}
+
+.card {
+  width: 450px;
+  max-width: 90%;
+  background: var(--card-bg);
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.title {
+  padding: 7px 20px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 530;
+}
+
+.row {
+  padding: 7px 20px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.status {
+  color: #fff;
+  background: var(--primary);
+  padding: 0px 3px;
+  border-radius: 0px;
+  font-weight: 540;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script>
+// قراءة ID من URL
+function getIDFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("id");
+}
+
+const id = getIDFromURL();
+
+// جلب البيانات من ملف JSON
+fetch('users.json?v=' + Date.now())
+  .then(response => response.json())
+  .then(users => {
+    const data = users[id] || {license:"---", issue:"---", expiry:"---", name:"Unknown User"};
+
+    document.getElementById("root").innerHTML = `
+      <div class="card">
+        <div class="title">DOCUMENT VERIFICATION</div>
+        <div class="row">Document Status : <span class="status">✅VALID</span></div>
+        <div class="row">Int. Driving License : ${data.license}</div>
+        <div class="row">Issue Date : ${data.issue}</div>
+        <div class="row">Expiration Date : ${data.expiry}</div>
+        <div class="row">Owner Name: ${data.name}</div>
+      </div>
+    `;
+  })
+  .catch(err => {
+    console.error('Error loading JSON:', err);
+  });
+</script>
+
+</body>
+</html>
