@@ -5,6 +5,30 @@
     "expiry": "10/02/2033",
     "name": "AHMED ESHAQ ALI"
   },
+  "1230772601": {
+    "license": "1230772601",
+    "issue": "12/07/2026",
+    "expiry": "11/07/2029",
+    "name": "SALEM SALEH HUSSEIN ZAIN"
+  },  
+  "1230772602": {
+    "license": "1230772602",
+    "issue": "12/07/2026",
+    "expiry": "11/07/2027",
+    "name": "ASEM AHMED ABDULLAH ALMUSAI"
+  },  
+  "1230772603": {
+    "license": "1230772603",
+    "issue": "12/07/2026",
+    "expiry": "11/07/2029",
+    "name": "DANNY ALALAWI"
+  },  
+  "1230772604": {
+    "license": "1230772604",
+    "issue": "12/07/2026",
+    "expiry": "11/07/2027",
+    "name": "MOHAMMED AMEEN QASEM QUBAIDHAH"
+  },  
    "1130772601": {
     "license": "1130772601",
     "issue": "11/07/2026",
@@ -218,7 +242,7 @@
    "0730772612": {
     "license": "0730772612",
     "issue": "07/07/2026",
-    "expiry": "06/07/2027",
+    "expiry": "06/07/2036",
     "name": "SAQR ALI MOHAMMED HATEM"
   },  
    "0730772613": {
