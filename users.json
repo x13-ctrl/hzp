@@ -5,6 +5,42 @@
     "expiry": "10/02/2033",
     "name": "AHMED ESHAQ ALI"
   },
+   "2030772620": {
+    "license": "2030772620",
+    "issue": "20/07/2026",
+    "expiry": "19/07/2036",
+    "name": "MOHAMMED ALI ABDO SALLAM"
+  },  
+   "2030772621": {
+    "license": "2030772621",
+    "issue": "20/07/2026",
+    "expiry": "19/07/2031",
+    "name": "HASSAN SALEH A ALJABER"
+  },  
+  "2030772622": {
+    "license": "2030772622",
+    "issue": "20/07/2026",
+    "expiry": "19/07/2027",
+    "name": "HADEEL KHALED AHMED SAEED"
+  },  
+   "2030772623": {
+    "license": "2030772623",
+    "issue": "20/07/2026",
+    "expiry": "19/07/2027",
+    "name": "MOHAMMED ESMAIL AHMED SHUJAAALDEEN"
+  },  
+   "2030772624": {
+    "license": "2030772624",
+    "issue": "20/07/2026",
+    "expiry": "19/07/2036",
+    "name": "SALEH SULTAN AZIZ ALMOGAHED"
+  },  
+   "2030772625": {
+    "license": "2030772625",
+    "issue": "20/07/2026",
+    "expiry": "19/07/2027",
+    "name": "KHALED AHMED MOHSEN ALNUWAIRAH"
+  },  
   "1930772601": {
     "license": "1930772601",
     "issue": "19/07/2026",
@@ -64,12 +100,6 @@
     "issue": "19/07/2026",
     "expiry": "18/07/2027",
     "name": "MOHAMMED HASHEM MOHAMMED ALSWARI"
-  },  
-   "1930772611": {
-    "license": "1930772611",
-    "issue": "19/07/2026",
-    "expiry": "18/07/2031",
-    "name": "HASSAN SALEH A ALJABER"
   },  
    "1830772601": {
     "license": "1830772601",
@@ -4130,7 +4160,7 @@
    "0630472644": {
     "license": "0630472644",
     "issue": "06/04/2026",
-    "expiry": "05/04/2027",
+    "expiry": "05/04/2029",
     "name": "SADEQ MOHAMMED SADEQ ALFAKIH"
   },
    "0630472645": {
