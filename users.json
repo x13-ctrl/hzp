@@ -5,6 +5,42 @@
     "expiry": "10/02/2033",
     "name": "AHMED ESHAQ ALI"
   },
+  "2230772601": {
+    "license": "2230772601",
+    "issue": "22/07/2026",
+    "expiry": "21/07/2027",
+    "name": "DAWOOD MOHAMMED ALI THABIT"
+  }, 
+   "2230772602": {
+    "license": "2230772602",
+    "issue": "22/07/2026",
+    "expiry": "21/07/2031",
+    "name": "HAMDI ALI AHMED ALMAGHBASH"
+  }, 
+   "2230772603": {
+    "license": "2230772603",
+    "issue": "22/07/2026",
+    "expiry": "21/07/2036",
+    "name": "AMR YOUSSEF MAHMOUD SERDAH"
+  }, 
+   "2230772604": {
+    "license": "2230772604",
+    "issue": "22/07/2026",
+    "expiry": "21/07/2029",
+    "name": "AHMED SALEH MOHAMMED ALEZZI"
+  }, 
+   "2230772605": {
+    "license": "2230772605",
+    "issue": "22/07/2026",
+    "expiry": "21/07/2031",
+    "name": "ADNAN MOHSEN HASAN ALMANSORI"
+  }, 
+   "2230772606": {
+    "license": "2230772606",
+    "issue": "22/07/2026",
+    "expiry": "21/07/2036",
+    "name": "AMMAR SALEH HASAN"
+  }, 
   "2130772600": {
     "license": "2130772600",
     "issue": "21/07/2026",
@@ -20,7 +56,7 @@
    "2130772602": {
     "license": "2130772602",
     "issue": "21/07/2026",
-    "expiry": "20/07/2027",
+    "expiry": "20/07/2031",
     "name": "MOHAMMED FAROQ MOHAMMED KAMAL"
   }, 
    "2130772603": {
