@@ -5,6 +5,54 @@
     "expiry": "10/02/2033",
     "name": "AHMED ESHAQ ALI"
   },
+   "0530972601": {
+    "license": "0530972601",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2027",
+    "name": "SADEQ AHMED MOHAMMED ALGHABER"
+  }, 
+   "0530972602": {
+    "license": "0530972602",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2029",
+    "name": "BASHEER ABDULAZIZ YAHIA HIZAM"
+  }, 
+   "0530972603": {
+    "license": "0530972603",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2027",
+    "name": "ALI IDRISS AHMAT HASSAN"
+  }, 
+   "0530972604": {
+    "license": "0530972604",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2027",
+    "name": "ANAS MOHAMED MAKI HAGI ABDI"
+  }, 
+   "0530972605": {
+    "license": "0530972605",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2027",
+    "name": "HESHAM MOHAMMED SAGHEER ALBURAEE"
+  }, 
+   "0530972606": {
+    "license": "0530972606",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2028",
+    "name": "HASSAN GEBRIL ABDALLA GAMAL"
+  }, 
+   "0530972607": {
+    "license": "0530972607",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2031",
+    "name": "AEMIN RASHAD ALI HMED"
+  }, 
+   "0530972608": {
+    "license": "0530972608",
+    "issue": "05/09/2026",
+    "expiry": "04/09/2031",
+    "name": "EKHLAS MOHAMMED QAID ALASADI"
+  }, 
   "0330972601": {
     "license": "0330972601",
     "issue": "03/09/2026",
@@ -70,6 +118,12 @@
     "issue": "03/09/2026",
     "expiry": "02/09/2027",
     "name": "AHMED MAMDOOH QASEM ABDULHAFEDH"
+  }, 
+   "0330972612": {
+    "license": "0330972612",
+    "issue": "09/02/2026",
+    "expiry": "08/02/2029",
+    "name": "FEKRI MOHAMMED NASSER ALDHAMARI"
   }, 
   "0130972601": {
     "license": "0130972601",
