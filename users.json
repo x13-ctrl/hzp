@@ -5,6 +5,54 @@
     "expiry": "10/02/2033",
     "name": "AHMED ESHAQ ALI"
   },
+  "1131072601": {
+    "license": "1131072601",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2031",
+    "name": "IBRAHEEM TAHER MOHAMAD OBAID"
+  }, 
+  "1131072602": {
+    "license": "1131072602",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2036",
+    "name": "OSAMAH KHALED HASAN ABOHADI"
+  }, 
+  "1131072603": {
+    "license": "1131072603",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2027",
+    "name": "GHALEB ALI GHALEB SAFRAN"
+  }, 
+  "1131072604": {
+    "license": "1131072604",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2027",
+    "name": "SALEH ALI MOHAMMED RASHEDI-AL"
+  }, 
+  "1131072605": {
+    "license": "1131072605",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2031",
+    "name": "MUNYAH ADEL THABIT ALSADI"
+  }, 
+  "1131072606": {
+    "license": "1131072606",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2031",
+    "name": "NEMAH ADEL THABIT ALSADI"
+  }, 
+  "1131072607": {
+    "license": "1131072607",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2031",
+    "name": "RAWIA ADEL THABIT ALSADI"
+  }, 
+  "1131072608": {
+    "license": "1131072608",
+    "issue": "11/10/2026",
+    "expiry": "10/10/2029",
+    "name": "ADNAN M. H. ALQASSASS"
+  }, 
   "1031072601": {
     "license": "1031072601",
     "issue": "10/10/2026",
@@ -44,7 +92,7 @@
   "0931072605": {
     "license": "0931072605",
     "issue": "09/10/2026",
-    "expiry": "08/10/2027",
+    "expiry": "08/10/2031",
     "name": "SALEEM ALI YAHYA ALSHARAEAI"
   }, 
   "0931072606": {
